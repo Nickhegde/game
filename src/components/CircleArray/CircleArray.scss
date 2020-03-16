@@ -1,0 +1,11 @@
+.circle-array-container{
+  .rows{
+    .columns{
+      height: 40px;
+      width: 40px;
+      .circle{
+        cursor: pointer;
+      }
+    }
+  }
+}

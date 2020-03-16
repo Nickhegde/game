@@ -1,3 +1,12 @@
+# Hit the Circle
+
+A sample game in react using hooks.
+
+### Instructions
+
+1. Click on the circles as they are selected randomly by the computer.
+2. 1 point per hit, minus 1 per miss.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
