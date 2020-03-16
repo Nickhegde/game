@@ -10,7 +10,7 @@ A sample game in react using hooks.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deployment
-Open [https://agitated-kowalevski-308842.netlify.com/](https://agitated-kowalevski-308842.netlify.com/) to view in the browser.
+Open [https://hitthecircle.netlify.com/](https://hitthecircle.netlify.com/) to view in the browser.
 
 ## Available Scripts
 
