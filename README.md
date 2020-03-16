@@ -1,6 +1,6 @@
 # Hit the Circle
 
-A sample game in react using hooks.
+A sample game in react using hooks and it is responsive.
 
 ### Instructions
 
