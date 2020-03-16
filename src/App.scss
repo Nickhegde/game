@@ -1,0 +1,122 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+.app-container {
+  background-color: #282c34;
+  min-height: 100vh;
+  overflow: hidden;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title{
+        font-weight: 600;
+        font-size: 20px;
+      }
+  } 
+  .intro{
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .score-card{
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    .score-heading{
+      padding-right: 10px;
+    }
+    .score-box{
+      width: 100px;
+      border: 1px solid #61dafb;
+    }
+  }
+  .game-array{
+    border-top: 1px solid #61dafb; 
+    border-bottom: 1px solid #61dafb;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .control-keys{
+    .play-btn,.stop-btn{
+      width: 80px;
+      margin: 10px;
+      cursor: pointer;
+      &.disabled{
+        cursor: not-allowed;
+      }
+    }
+    .play-btn{
+      color: white;
+      background-color: #6182fbcc;
+      font-weight: 600;   
+    }
+    .stop-btn{
+      background-color: white;
+      color: black;
+    }
+     button:focus{
+      outline: none;
+    }
+
+  }
+  .instructions{
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    color: #61dafb;
+  }
+}
+
+
+@keyframes app-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+	@media only screen and (min-width:1200px) and (max-width: 3840px) { 
+    .app-container {
+      .score-card, .game-array,.instructions{
+         width: 50%;
+      }
+    }
+   }
+
+   @media only screen and (min-width:992px) and (max-width: 1199px) { 
+    .app-container {
+          .score-card, .game-array,.instructions{
+            width: 50%;
+          }
+     }
+   }
+
+    @media only screen and (min-width:768px) and (max-width: 991px) { 
+    .app-container {
+          .score-card, .game-array,.instructions{
+            width: 50%;
+          }
+     }
+   }
