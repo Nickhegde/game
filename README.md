@@ -9,6 +9,9 @@ A sample game in react using hooks.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+Open [https://agitated-kowalevski-308842.netlify.com/](https://agitated-kowalevski-308842.netlify.com/) to view in the browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -67,10 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ma
 ### Advanced Configuration
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `yarn build` fails to minify
 
